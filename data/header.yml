@@ -1,0 +1,25 @@
+title: Ibiza Royal Beach Apartment
+links:
+  - href: "#home"
+    active: true
+    label: Home
+
+  - href: "#apartment"
+    active: false
+    label: Apartment
+
+  - href: "#location"
+    active: false
+    label: Location
+
+  - href: "#reviews"
+    active: false
+    label: Reviews
+
+  - href: "#contact"
+    active: false
+    label: Contact
+
+  - href: "/book-request"
+    active: false
+    label: Request Book

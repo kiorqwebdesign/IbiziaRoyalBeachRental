@@ -1,0 +1,44 @@
+title: Ibiza Royal Beach
+images:
+  
+  - num: 1
+    active: true
+    src: "/images/home/img2.jpg"
+    quote: "Perfect Ibiza Retreat"
+    name: "Julia N"
+
+  - num: 2
+    active: false
+    src: "/images/home/img3.jpg"
+    quote: "Fantastic Apartments in top location"
+    name: "Jacq"
+
+  - num: 3
+    active: false
+    src: "/images/home/img4.jpg"
+    quote: "A little piece of heaven on earth"
+    name: "TheAndersons"
+
+  - num: 4
+    active: false
+    src: "/images/home/img1.jpg"
+    quote: "IF CARLSBERG DID APARTMENTS!"
+    name: "Christopher H."
+
+  - num: 5
+    active: false
+    src: "/images/home/img5.jpg"
+    quote: "Brilliant Holiday"
+    name: "Morgan Family"
+
+  - num: 6
+    active: false
+    src: "/images/home/img6.jpg"
+    quote: "Pure luxury"
+    name: "Paul Q."
+
+  - num: 7
+    active: false
+    src: "/images/home/img7.jpg"
+    quote: "Perfect very luxury apartment"
+    name: "Jurgen Z."

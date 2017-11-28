@@ -1,0 +1,14 @@
+<nav class="header-nav fixed navbar navbar-expand-lg navbar-light bg-light">
+    <div class="cnt">
+        <a class="navbar-brand" href="#">
+            <span><%= data.header.title %></span>
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="navbar-nav">
+                <% data.header.links.each do |l| %>
+                    <a class="nav-item nav-link<%if l.active %> active<% end%>" href="../<%= l.href %>"><%= l.label %></a>
+                <% end %>
+            </div>
+        </div>
+    </div>  
+</nav>

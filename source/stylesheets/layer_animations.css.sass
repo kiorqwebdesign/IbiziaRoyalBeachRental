@@ -1,0 +1,65 @@
+$delay: 0
+
+// HEADER
+#header-mini
+    animation: header_mini_active .3s forwards
+
+// HOME
+.layer.layer-home
+    & .carousel .carousel-inner .carousel-item
+        & .caption
+            opacity: 0
+            transform: translate(0px, -80px)
+
+        &.active .caption
+            animation: slidereview .6s forwards
+            animation-delay: $delay + .5s
+
+// APARTMENT
+.layer-apartment
+    & .apartment-detail.wow
+        & .detail
+            transform: scale(.7, .7)
+            opacity: 0
+
+        &.animated .detail
+            animation: detailactive .3s forwards
+            animation-delay: $delay + 0s
+
+            &:nth-child(3)
+                animation-delay: $delay + 0.1s
+
+            &:nth-child(2),
+            &:nth-child(6)
+                animation-delay: $delay + 0.2s
+
+            &:nth-child(1),
+            &:nth-child(5),
+            &:nth-child(9)
+                animation-delay: $delay + 0.3s
+
+            &:nth-child(4),
+            &:nth-child(8),
+                animation-delay: $delay + 0.4s
+
+            &:nth-child(7),
+                animation-delay: $delay + 0.5s
+
+
+// LOCATION
+.layer-location .side.wow
+    & .layer-location-map
+        opacity: 0
+        transform: translate(0px, -180px)
+
+    &.animated .layer-location-map
+        animation: mapactive 1.2s forwards
+
+// CONTAT
+.layer-contact .side.wow
+    & .contact-form
+        opacity: 0
+        transform: translate(0px, 120px)
+
+    &.animated .contact-form
+        animation: contactformactive 1.2s forwards

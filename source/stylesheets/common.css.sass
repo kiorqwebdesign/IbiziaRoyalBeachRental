@@ -1,0 +1,201 @@
+$color-primary: #2574A9
+$color-footer: #3D4A54
+
+// font-family: 'Adamina', serif
+// font-family: 'Muli', sans-serif
+
+body
+    font-family: 'Muli', sans-serif !important
+
+#main-container
+    padding-left: 0
+    padding-right: 0
+
+.header-nav
+    background-color: $color-primary !important
+    height: 80px
+    width: 100%
+    line-height: 80px
+    border-radius: 0,
+    border: 1px solid transparent
+
+    &.fixed
+        position: fixed
+        left: 0px
+        top: 0px
+        z-index: 200
+        height: 45px
+        line-height: 45px
+
+    & .cnt
+        margin: 0 auto
+        width: 1200px
+
+        & .navbar-brand
+            color: #FFFFFF
+            font-family: 'Adamina', serif !important
+            font-size: 1.5em
+
+        & #navbarNav
+            float: right
+
+            & .nav-item
+                font-size: .98em
+                padding-left: 10px
+                padding-right: 10px
+                color: rgba(255, 255, 255, .6)
+                &:hover,
+                &.active
+                    text-decoration: none
+                    color: #FFFFFF
+ 
+
+#footer
+    background-color: #8b9eab
+    width: 100vw
+    min-width: 1200px
+    border-bottom: 25px solid $color-footer
+
+    & .content 
+        padding-top: 80px
+        padding-bottom: 70px
+        margin: 0 auto
+        width: 1200px
+        display: flex
+        flex-direction: row
+        &.center
+            text-align: center
+
+        & .link-section
+            background-color: rgba(0,0,0,0.01)
+            min-width: 280px
+            height: 120px
+
+            & .title
+                color: $color-footer
+                font-weight: 600
+                font-size: 18px
+                width: 100%
+                margin-bottom: 25px
+
+            & .link-img
+                height: 50px
+                margin-right: 20px
+                display: inline-block
+                cursor: pointer
+
+                &.addictedtoibiza
+                    width: 120.2px
+                    background-image: url(/images/footer/addictedtoibiza.png)
+                    background-size: 120.2px 50px
+                    &:hover
+                        background-image: url(/images/footer/addictedtoibiza-white.png)
+
+                &.ibizaspotlight
+                    width: 72.33px
+                    background-image: url(/images/footer/ibizaspotlight.png)
+                    background-size: 72.33px 50px
+                    &:hover
+                        background-image: url(/images/footer/ibizaspotlight-white.png)
+
+            & a
+                color: $color-footer
+                font-size: .9em
+                margin-right: 15px
+
+                &:hover
+                    color: #FFFFFF
+                    text-decoration: none
+
+
+.layer
+    height: 720px
+    width: 100vw
+    min-width: 1200px
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    background-size: cover
+
+    &.tinted
+        background-color: #f0f0f0
+
+    &.tinted-pattern
+        background-size: 100px 20px
+        background-color: #ffffff
+        background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox='0 0 100 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21.184 20c.357-.13.72-.264 1.088-.402l1.768-.661C33.64 15.347 39.647 14 50 14c10.271 0 15.362 1.222 24.629 4.928.955.383 1.869.74 2.75 1.072h6.225c-2.51-.73-5.139-1.691-8.233-2.928C65.888 13.278 60.562 12 50 12c-10.626 0-16.855 1.397-26.66 5.063l-1.767.662c-2.475.923-4.66 1.674-6.724 2.275h6.335zm0-20C13.258 2.892 8.077 4 0 4V2c5.744 0 9.951-.574 14.85-2h6.334zM77.38 0C85.239 2.966 90.502 4 100 4V2c-6.842 0-11.386-.542-16.396-2h-6.225zM0 14c8.44 0 13.718-1.21 22.272-4.402l1.768-.661C33.64 5.347 39.647 4 50 4c10.271 0 15.362 1.222 24.629 4.928C84.112 12.722 89.438 14 100 14v-2c-10.271 0-15.362-1.222-24.629-4.928C65.888 3.278 60.562 2 50 2 39.374 2 33.145 3.397 23.34 7.063l-1.767.662C13.223 10.84 8.163 12 0 12v2z' fill='%23f6f6f6' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E")
+    
+    & .content 
+        padding-top: 180px
+        margin: 0 auto
+        width: 1200px
+        display: flex
+        flex-direction: row
+
+        &.center
+            text-align: center
+
+    & .content-fluid
+        display: flex
+        flex-direction: row
+        margin: 0 auto
+        width: 100%
+
+    & .main
+        width: 500px
+        text-align: left
+
+        & .title
+            font-size: 24px
+            color: #aaaaaa
+            padding-bottom: 20px
+
+        & .sub-title
+            font-size: 35px
+            color: $color-primary
+            padding-bottom: 20px
+            font-weight: bold
+            padding-bottom: 35px
+            text-transform: uppercase
+
+        & .text
+            font-size: 15.7px
+            line-height: 25px
+            color: #8f8f8f
+            margin-bottom: 35px
+
+    & .side
+        flex: 1
+        padding: 0px 20px
+        &.center
+            text-align: center
+
+
+a
+    color: $color-primary
+
+.btn
+    cursor: pointer
+    border: none
+    font-size: 16px
+    padding: 10px 28px
+
+    &.btn-primary 
+        background-color: $color-primary
+        color: #FFFFFF
+        
+    &.btn-white
+        background-color: #FFFFFF
+        color: $color-primary   
+
+    &:hover
+        font-weight: bold
+
+// light box override
+.lightboxOverlay
+    opacity: .93
+    
+.lightbox 
+    & .lb-image
+        border-width: 10px
+        border-radius: 0px

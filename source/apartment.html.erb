@@ -1,0 +1,132 @@
+---
+title: Apartment
+title_reverse: true
+---
+<div id="main-container" class="container-fluid" data-spy="scroll"> 
+    <div class="layer tinted layer-apartment" id="apartment">
+        <div class="content">
+            
+            <div class="main">
+                <h4 class="title">The Apartment</h4>
+                <h2 class="sub-title">Everything you need</h4>
+                <p class="text">
+                    This is a brand new three bedroom penthouse apartment located at Ibiza Royal Beach, directly on the famous Playa Den Bossa beach with fantastic views and on-site amenities to an extremely high standard.
+                    <br />
+                    Close to all of the big attractions, Space, Ushuaia and Bora Bora are within walking distance. Ibiza Town, Pacha and Amnesia are a close cab ride.
+                    <br />
+                    The apartment includes 2 king bedrooms and 1 single bedroom with a large balcony and sizeable roof terrace for your privacy and sole use.
+                </p>
+            </div>
+            <div class="side center">
+                <div class="apartment-detail wow">
+
+                    <div class="detail">
+                        <div class="icon" style="background-image: url(/images/apartment/bedroom.svg)">
+                        </div>
+                        <p class="text">3 Bedrooms</p>
+                    </div>
+
+                    <div class="detail">
+                        <div class="icon" style="background-image: url(/images/apartment/kitchen.svg)">
+                        </div>
+                        <p class="text">Kitchen</p>
+                    </div>
+
+                    <div class="detail">
+                        <div class="icon" style="background-image: url(/images/apartment/central-heating.svg)">
+                        </div>
+                        <p class="text">Central Heating</p>
+                    </div>
+
+                    <div class="detail">
+                        <div class="icon" style="background-image: url(/images/apartment/apple-tv.svg)">
+                        </div>
+                        <p class="text">Apple Tv</p>
+                    </div>
+
+                    <div class="detail">
+                        <div class="icon" style="background-image: url(/images/apartment/television.svg)">
+                        </div>
+                        <p class="text">Satellite TV</p>
+                    </div>
+
+                    <div class="detail">
+                        <div class="icon" style="background-image: url(/images/apartment/dining-room.svg)">
+                        </div>
+                        <p class="text">Dining Room</p>
+                    </div>
+
+                    <div class="detail">
+                        <div class="icon" style="background-image: url(/images/apartment/air-conditioning.svg)">
+                        </div>
+                        <p class="text">Air Conditioning</p>
+                    </div>
+
+                    <div class="detail">
+                        <div class="icon" style="background-image: url(/images/apartment/shared-pool.svg)">
+                        </div>
+                        <p class="text">Shared Pool</p>
+                    </div>
+
+                    <div class="detail">
+                        <div class="icon" style="background-image: url(/images/apartment/bathroom.svg)">
+                        </div>
+                        <p class="text">3 Bathrooms</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="layer tinted layer-apartment-info">
+        <div class="content">
+            
+            <div class="main">
+                <h4 class="title">Rooms</h4>
+                <p class="text">
+                    Bedroom 1 – En-suite Master bedroom with King bed.<br />
+                    Bedroom 2 – King bed.<br />
+                    Bedroom 3 – Single bed.<br /> 
+                    <br />
+                    All beds have duvets and bedlinen is provided.<br />
+                    <br />
+                    <br />
+                    Bathroom 1 – Full en-suite bathroom off Master bedroom, with bath and shower, wc, bidet.<br />
+                    Bathroom 2 – Walk in shower and wc.<br />
+                </p>
+            </div>
+            <div class="side">
+            </div>
+            <div class="main">
+                <h4 class="title">And more</h4>
+                <p class="text">
+                    Fully equipped kitchen with high end appliances, including oven, hob, grill, fridge and freezer, microwave, kettle, toaster etc.<br />
+                    <br />
+                    Outdoor utility room off kitchen with washing machine, ironing board, iron, clothes line.<br />
+                    <br />
+                    Lounge with wide screen TV, with Apple TV, DVD player and Astra Satellite TV (seating for 6) and dining room (seating for 6/8).<br />
+                    <br />
+                    Towels, including beach towels and linens are included and are changed once a week on changeover day.<br />
+                    <br />
+                    Other: - hob/stove oven, fridge/freezer, microwave, dishwasher, washing machine, iron/ironing board, TV, internet access, central heating, air conditioning, shared pool.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="layer layer-apartment-pictures">
+        <div class="content center">
+            <div class="images-content">
+                <% data.apartment.images.each do |f| %>
+                <div class="img">
+                    <a href="<%= f %>" data-lightbox="apartment">
+                        <img src="<%= f %>" />
+                    </a>
+                </div>
+                <%  end %>
+                
+            </div>
+        </div>
+    </div>
+</div>
